@@ -1,0 +1,45 @@
+body{
+    background: rgba(240, 239, 242, 1);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__list{
+    display: flex;
+}
+.header__nav{
+    background-color: black;
+    width: 655px;
+    height: 55px;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    margin-right: 20px;
+    width: 120px;
+    display: block;
+    text-align: center;
+}
+
+.header__inner {
+    width: 100vw;
+    height: 55px;
+    background: black;
+    display: flex;
+}
+
+.header__logo {
+    margin-left: 10px;
+}
+
+h1 {
+    height: 55px;
+    margin-top: 0px;
+}

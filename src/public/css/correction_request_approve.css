@@ -1,0 +1,96 @@
+.title{
+   border-left:8px solid rgba(0, 0, 0, 1);
+   margin: 50px;
+   margin-left: 306px;
+   padding-left: 20px;
+   font-weight: 700;
+   font-size: 30px;
+}
+
+.attendance-detail__form {
+   width: 900px;
+   height: 555px;
+   margin-left: 306px;
+   border-radius: 10px;
+   border: 1px solid rgba(225, 225, 225, 1);
+   background-color: rgba(255, 255, 255, 1);
+}
+
+.attendance-detail__group {
+   display: flex;
+   border-bottom: 3px solid rgba(225, 225, 225, 1);
+}
+
+.attendance-detail__group:last-child {
+   border-bottom: unset;
+}
+
+.attendance-detail__label {
+   color: rgba(115, 115, 115, 1);
+   font-weight: 700;
+   font-size: 16px;
+   padding: 30px 0 30px 65px;
+   margin-bottom: 20px;
+   width: 180px;
+   height: 19px;
+}
+
+.input-name {
+   border: none;
+   font-weight: 700;
+   font-size: 16px;
+   text-align: left;
+   margin-left: 120px;
+}
+
+.input-date{
+   border: none;
+   font-weight: 700;
+   font-size: 16px;
+   text-align: left;
+   margin: 30px auto;
+   width: 103px;
+   height: 29px;
+}
+
+.input-time {
+   border: none;
+   width: 103px;
+   height: 29px;
+   border-radius: 4px;
+   border: 1px solid rgba(225, 225, 225, 1);
+   text-align: center;
+   margin: 30px auto;
+   font-weight: 700;
+   font-size: 16px;
+   &::-webkit-calendar-picker-indicator {
+    position: absolute;
+    opacity: 0;
+  }
+}
+
+.～ {
+   margin: 33px;
+}
+
+textarea {
+   border: none;
+   border-radius: 4px;
+   border: 1px solid rgba(225, 225, 225, 1);
+   width: 316px;
+   height: 72px;
+   text-align: center;
+   margin: 15px 120px;
+}
+
+.attendance-detail__btn{
+   text-decoration: none;
+   background-color: rgba(0, 0, 0, 1);
+   width: 130px;
+   height: 50px;
+   margin: 50px 0 0 760px;
+   border-radius: 5px;
+   color: rgba(255, 255, 255, 1);
+   font-weight: 700;
+   font-size: 22px;
+}

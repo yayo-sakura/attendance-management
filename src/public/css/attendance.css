@@ -1,0 +1,79 @@
+.attendance{
+    text-align: center;
+}
+
+.attendance-status {
+    display: inline-block;
+    background-color: rgba(200, 200, 200, 1);
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    color: rgba(105, 105, 105, 1);
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 6px;
+    margin-top: 15%;
+    letter-spacing:3px;
+}
+
+.attendance-date{
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.attendance-time{
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.attendance-form__btn--start_time {
+    width: 221px;
+    height: 77px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 50px;
+    letter-spacing:5px;
+}
+
+.attendance-form__btn--end_time{
+    width: 221px;
+    height: 77px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 50px;
+    letter-spacing:5px;
+    margin-right: 40px;
+}
+
+.attendance-form__btn--break_take{
+    width: 221px;
+    height: 77px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 50px;
+    border: none;
+    letter-spacing:5px;
+    margin-left: 40px;
+}
+
+.attendance-form__btn--break_return{
+    width: 221px;
+    height: 77px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 50px;
+    border: none;
+    letter-spacing:5px;
+}

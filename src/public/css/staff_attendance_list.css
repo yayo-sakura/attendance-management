@@ -1,0 +1,150 @@
+.title{
+   border-left:8px solid rgba(0, 0, 0, 1);
+   margin: 50px;
+   margin-left: 306px;
+   padding-left: 20px;
+   font-weight: 700;
+   font-size: 30px;
+}
+
+.date{
+    width: 900px;
+    height: 60px;
+    margin-left: 306px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-show{
+    display: flex;
+}
+
+.img-arrow__yesterday{
+    width: 20px;
+    height: 15px;
+    opacity: 0.3;
+    margin-top: 22px;
+    margin-left: 20px;
+}
+
+.date-yesterday{
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(115, 115, 115, 1);
+    width: 35px;
+    height: 19px;
+    margin-left: 10px;                                                                                             
+}
+
+.img-calendar{
+    width: 25px;
+    height: 25px;
+    margin-top: 19px;
+}
+
+.date-today{
+    font-weight: 700;
+    font-size: 20px;
+    margin: auto;
+    margin-left: 10px;
+    width: 119px;
+    height: 24px;
+
+}
+
+.img-arrow__tomorrow{
+    transform: rotate(180deg);
+    width: 20px;
+    height: 15px;
+    opacity: 0.3;
+    margin-top: 22px;
+    margin-right: 20px;
+}
+
+.date-tomorrow{
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(115, 115, 115, 1);
+    width: 35px;
+    height: 19px;
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+
+.attendance-list__table{
+    width: 900px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-left: 306px;
+    margin-top: 60px;
+}
+
+.attendance-list__table--row{
+    width: 900px;
+    height: 31px;
+    color: rgba(115, 115, 115, 1);
+    border-bottom: 3px solid rgba(225, 225, 225, 1);
+}
+
+.attendance-list__table--row:last-child {
+   border-bottom: unset;
+}
+
+.attendance-list__table--header-date{
+    text-align: left;
+    padding: 15px 0 15px 50px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.attendance-list__table--header-attendance-work{
+    text-align: left;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.attendance-list__table--header-leaving-work{
+    text-align: left;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.attendance-list__table--header-break{
+    text-align: left;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.attendance-list__table--header-total{
+    text-align: left;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.attendance-list__table--header-detail{
+    text-align: left;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.attendance-list__table--content{
+    text-align: left;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.attendance-form__btn {
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 22px;
+    width: 184px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 80px 0 0 1020px;
+}

@@ -108,4 +108,8 @@ return [
 
     'password_timeout' => 10800,
 
+    'messages' => [
+    'login' => 'ログイン情報が登録されていません',
+],
+
 ];
