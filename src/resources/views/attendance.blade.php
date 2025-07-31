@@ -18,16 +18,16 @@
     <h1 class="attendance-date">{{ Carbon::now()->isoformat('YYYY年MM月DD日(ddd)') }}</h1>
     <h2 class="attendance-time">{{ Carbon::now()->format('H:i') }}</h2>
     @if($attendance && $attendance->start_time && !$attendance->end_time)
-    <form action="/attendance" method="post" class="attendance-form">
+    <form action="{{ route('attendance.store') }}" method="post" class="attendance-form">
+    @method('PATCH')
     @csrf
-    @method('PUT')
         <button class="attendance-form__btn--end_time" type="submit" value="end_time" name="end_time">退勤</button>
         <button class="attendance-form__btn--break_take" type="submit" value="break_take" name="break_take">休憩入</button>
     </form>
-    @elseif($attendance && $attendance->start_time && $break_time->break_take && !$attendance->end_time)
+    @elseif($attendance && $attendance->start_time && $break_time && $break_time->break_take && !$attendance->end_time)
     <form action="/attendance" method="post" class="attendance-form">
+    @method('PATCH')
     @csrf
-    @method('PUT')
         <button class="attendance-form__btn--break_return" type="submit" value="break_return" name="break_return">休憩戻</button>
     </form>
     @else

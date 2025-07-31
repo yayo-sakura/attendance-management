@@ -22,7 +22,7 @@ Route::post('/admin/login', [UserController::class, 'store']);
 
 Route::get('/attendance',[AttendanceController::class, 'show']);
 Route::post('/attendance', [AttendanceController::class, 'store'])->name('attendance.store');
-Route::put('/attendance', [AttendanceController::class, 'update'])->name('attendance.update');
+Route::patch('/attendance', [AttendanceController::class, 'update'])->name('attendance.update');
 Route::get('/attendance/list', [AttendanceController::class, 'attendance_list']);
 Route::get('/attendance/{id}', [AttendanceController::class, 'showAttendance_detail']);
 Route::post('/attendance/{id}', [AttendanceController::class, 'attendance_detail']);

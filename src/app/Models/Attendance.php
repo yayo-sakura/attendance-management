@@ -20,15 +20,6 @@ class Attendance extends Model
         
     }
 
-    public static function getLatestAttendanceForUser()
-    {
-        $userId = Auth::id();
-
-        return self::where('user_id', $userId)
-            ->latest()
-            ->first();
-    }
-
     public function breaks()
     {
         return $this->hasMany(BreakTime::class);
